@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+body {
+    background-image: url("https://source.unsplash.com/random/1600x900");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #040427;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.75);
+}
+/*the title and button section*/
+.heading {
+    background-color: rgba(255, 255, 255, 0.72);
+    margin: auto;
+    padding: 15px;
+
+}
+/*the quote section*/
+.quotecard {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 137, 255, 0.55);
+    width: auto;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+    padding: 5% 10%;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #040427;
+
+}
+
+/*quote data styling*/
+#quote {
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px rgb(81, 116, 145);
+    width: auto;
+    height: auto;
+
+}
+/*author data styling*/
+#author {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    color: #040427;
+    text-shadow: 2px 2px 3px rgb(81, 116, 145);
+    width: 500px;
+    height: auto;
+}
+
+#author::before {
+    content: " ~ ";
+}
